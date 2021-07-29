@@ -1,0 +1,936 @@
+´ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root {
+    scroll-behavior: smooth;
+}
+
+
+/*Contenido Inicio*/
+
+.contenedor {
+    width: 90vw;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    height: 100%;
+    
+    
+    
+    
+}
+
+.header {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position:relative;
+    
+    
+        
+    
+    
+}
+
+.head {
+    
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    max-width: 3000px;
+    max-height: 180vh;
+    
+    
+    
+    
+    
+    
+}
+
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+    
+
+    
+}
+
+
+.hamburguer {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(50, 65, 64, 0.568);
+    z-index: 4;
+}
+
+.menu-navegacion {
+    position: fixed;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 13px;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: #1C2833;
+    background-blend-mode: multiply;
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(100%);
+    top: 0;
+    box-shadow: 0 0 20px rgba(250, 231, 215, 0.959);
+    z-index: 4;
+    text-transform: uppercase;
+}
+
+.spread {
+    transform: translate(0)
+}
+
+.menu-navegacion a {
+    color: rgb(247, 253, 158);
+    text-decoration: none;
+}
+
+
+
+
+.titulouno {
+    margin-bottom: 30px;
+    margin-top: -20px;
+    font-size: 250px;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff ;  
+    position:unset;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.titulodos {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-family: 'Poiret One', cursive;
+    color: hsl(45, 94%, 81%) ;
+    
+      
+   
+    
+}
+
+
+
+/*Final Contenido Inicio*/
+  /*Quien soy*/
+  .quiensoy {
+
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+    height: 101vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 3000px;
+    max-height: 140vh;
+    
+
+
+    
+}
+
+.subtitulouno {
+
+    text-align: left;
+    margin-left: 50px;;
+    font-size: 100px;
+    font-family: 'Poiret One', cursive;
+    margin-top: 8px;
+    opacity: 0;
+    transition: all 2.5s;
+    color:#ffffff;
+    margin-top: -80px;
+        
+    
+}
+
+.contenedor-quiensoy {
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.hola {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 110px;
+    color: #F56969;
+    font-family: 'Arima Madurai', cursive;
+    margin-bottom: 60px;
+    opacity: 0;
+    transition: all 1.0s;
+
+    
+    
+    
+}
+
+.service {
+    width: 50%;
+    margin-bottom: 1%;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 365px;
+    font-family: 'Arima Madurai', cursive;
+    line-height: 17px;
+    margin-top: -16%;
+    opacity: 0;
+    transition: all 1.5s;
+    color: #1a1a1a ;
+    
+    
+    
+
+}
+
+.firma {
+    width: 230px;
+    margin-left: 75%;
+
+    margin-top: -150px;
+    
+    
+    
+}
+
+.imagenuno {
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 10px;
+    opacity: 0;
+    transition: all 1.5s;
+    margin-bottom:170px;
+    border-radius: 10px;
+    
+
+    
+    
+
+
+}
+
+/*Final quien soy*/
+/*Experienciayeducacion*/
+
+.experiencia {
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    height: 108vh;  
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 3000px;
+    max-height: 380vh;
+    margin-top: -10px;
+    
+    
+    
+}
+
+.subtitulodos {
+    
+    margin-left:17%;
+    margin-right: 0%;
+    text-align: center;
+    color: #ffffff ;
+    font-size: 90px;
+    font-family: 'Arima Madurai', cursive;
+    margin-top: 90px;
+    justify-content: space-evenly;
+    opacity: 0;
+    transition: all 1.5s;
+    line-height: 80px;
+    margin-bottom: 13%;
+
+    
+    
+}
+
+.contenedor-experiencia {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.servicio {
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Arima Madurai', cursive;
+    color: #ffffff ;
+    margin-left: 50px;
+    margin-top: -90px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 8px;
+    opacity: 0;
+    transition: all 1.5s;
+    
+}
+
+.empresa {
+    font-size: 27px;
+    font-family: 'Arima Madurai', cursive;
+    color: #ffffff ;
+    
+
+}
+
+.imagendos {
+    width: 32%;
+    margin-left: 240px;
+    margin-top: -100px;
+    text-shadow: rgb(255, 253, 253);
+    opacity: 0;
+    transition: all 1.5s;
+    border-radius: 100%;
+    
+    
+    
+
+}
+/*final experiencia*/
+/*Inicio Habilidades*/
+
+.habilidades {
+    height: 130vh;
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 3000px;
+    max-height: 2   20vh;
+    margin-top: -4%;
+    
+}
+
+.subtitulotres {
+    
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+     color: #ffffff ;
+    font-size: 74px;
+    font-family: 'Arima Madurai', cursive;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    opacity: 0;
+    transition: all 1.5s;
+    line-height: 90px;
+    
+    
+}
+
+.contenedor-habilidades {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.habilidad {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 45px;
+    margin-top: 10px;
+    line-height: 2px;
+    opacity: 0;
+    transition: all 1.5s;
+    line-height: 8px;
+    margin-bottom: 100px;
+}
+
+.imagentres {
+    width: 32%;
+    margin-left: 240px;
+    margin-top: 10px;
+    text-shadow: rgb(255, 253, 253);
+    opacity: 0;
+    transition: all 1.5s;
+    border-radius: 100%;
+}
+
+.imagencuatro {
+    width: 28%;
+    margin: auto;
+    margin-top: -150px;
+    margin-right: 270px;
+    opacity: 0;
+    transition: all 3.0s;
+}
+/*final Habilidades*/
+/*Inicio Galeria*/
+  
+.gallery {
+    height: 112vh;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 3000px;
+    max-height: 1150vh;
+    margin-top: -230px;
+    
+}
+
+.subtitulocuatro {
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 110px;
+    font-family: 'Arima Madurai', cursive;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.contenedor-galeria {
+
+    display: flex;
+    width: 270%;
+    height: 350px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 40px;
+    margin-top: 50px;
+    opacity: 0;
+    transition: all 1.5s;
+    margin-left: -1%;
+    
+    
+}
+
+.img-galeria {
+    margin-bottom: -10px;
+    width: 450px;
+    height: 120px;
+    display: block;
+    box-shadow: 0 0 20px rgba(226, 226, 226, 0.829);
+    cursor: pointer;
+    object-fit: cover;
+    object-position: justify;
+    margin-bottom: 2%;
+    z-index: 2;
+    
+}
+
+.imagen-light {
+    
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+    z-index: 2;
+
+}
+
+.show {
+    transform: translate(0);
+}
+
+.agregar-imagen {
+    display: flex;
+    object-fit: contain;
+    width: 65%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+    width: 750px;
+    height: 750px;
+}
+
+.showImage {
+    transform: scale(1);
+}
+
+.close {
+    position: absolute;
+    top: 100px;
+    right: 105px;
+    width: 60px;
+    cursor: pointer;
+    
+
+}
+/*final Galeria*/
+/*Inicio portafolio*/
+
+.portafolio {
+    margin-top: -6%;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    height: 100vh;
+
+}
+
+.subtituloseis {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+    color: #ffffff;
+    font-size: 110px;
+    font-family: 'Arima Madurai', cursive;
+    margin-top: -30px;
+    opacity: 0;
+    transition: all 1.5s;
+    
+}
+
+.contenedor-portafolio {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin-bottom: -30px;
+   margin-right: 100px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 0 0 15px rgba(14, 13, 13, 0.637);
+    opacity: 0;
+    transition: all 1.5s;
+    z-index: 1;
+}
+/* footer */
+
+footer {
+    background-color: #1C2833;
+    background-blend-mode: lighten;
+    /* padding.bottom: 0, 1px; */
+    border: 1px solid rgba(0, 0, 0, 0);
+    max-height: 900px;
+    
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.contact-us {
+    
+    margin-top: 60px;
+    margin-bottom: -50px;;
+    width: 100%;
+    color: rgb(248, 245, 245);
+    
+}
+
+.brand {
+    
+    font-family: 'Poiret One', cursive;
+    margin-left: 1120px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10PX;
+    
+    
+}
+
+.telefono{
+    font-family: 'Poiret One', cursive;
+    margin-left: 1120px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10PX;
+
+}
+.nombre
+{
+    text-justify: right;
+    font-size: 30px;
+    margin: -5%;
+}
+.brand+p {
+    width: 700px;
+    font-weight: 500;
+    font-family: Futura Lt BT;
+    margin-left: 95px;
+}
+
+.social-media {
+    margin-left: 65px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    
+    
+}
+
+.social-media-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgba(212, 205, 205, 0.747);
+    z-index: 3;
+    
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #764ba2;
+    
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+    
+}
+/* final footer*/
+/* Resposive*/
+
+
+@media (min-width: 360px) and (max-width:640px){
+
+
+    .menu-navegacion{
+
+        height: 100%;
+        font-size: 62%;
+        width: 60%;
+        flex-direction: column;
+        
+        
+        
+        
+    }
+
+    .titulouno{
+
+        font-size: 500%;
+        margin-top: 11%;
+        justify-content:space-between
+    }
+
+
+   
+    .titulodos{
+        font-size: 30%;
+        line-height: -150%;
+        letter-spacing: -70%;
+        color: #f4fc89;
+    }
+
+
+    .quiensoy{
+        height: 102vh;
+    }
+    .imagenuno{
+
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 40%;
+    }
+    .hola{
+        font-size: 590%;
+        margin-top: -20%;
+    }
+    .service{
+        width: 80%;
+        font-size: 70%;
+        margin-left: 10%;
+        margin-bottom: 6%;
+        
+    }
+    .firma{
+        width: 28%;
+        margin-left: 63%;
+    
+    }
+
+
+    
+.experiencia {
+   
+    height: 103vh; 
+    
+
+    }
+    
+    
+    .subtitulodos{
+        font-size: 280%;
+        margin-top: 10%;
+        margin-left: 1%;
+        margin-bottom: 37%;
+        line-height: 100%;
+    }
+    .imagendos{
+        width: 65%;
+        margin-left: 16%;
+        margin-bottom: 3%;
+        
+    }
+
+
+    .servicio{
+        width: 80%;
+        font-size: 74%;
+        margin-top: 2%;
+        margin-left: 10%;
+    
+            }
+
+    .empresa{
+        font-size: 115%;
+        
+    }
+    .subtitulotres{
+        font-size: 280%;
+        margin-top: 10%;
+        margin-left: 14%;
+        margin-bottom: 5%;
+        line-height: 100%;
+    }
+
+    .imagentres{
+        width: 60%;
+        margin-left: 19%;
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
+
+    
+.habilidades {
+    height: 136vh;
+    
+
+    }
+
+    .habilidad{
+        font-size: 74%;
+        margin-top: 1%;
+        margin-left: 11%;
+            }
+
+            .imagencuatro{
+                width: 60%;
+                margin-left: 20%;
+                margin-top: -32%;
+                
+
+
+            }
+            .subtitulocuatro{
+                font-size: 380%;
+                margin-left: 3%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                line-height: 100%;
+
+                }
+                
+                .imagen-light {
+                    
+                    position: fixed;
+                    background: rgba(0, 0, 0, .6);
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transform: translate(100%);
+                    transition: transform .2s ease-in-out;
+                    
+                
+                }
+                
+                .show {
+                    transform: translate(0);
+                }
+                
+                .agregar-imagen {
+                    
+                    width: 360px;
+                    height: 360px;
+                    
+                }
+
+
+                .contenedor-galeria {
+
+                    
+                    width: 70%;
+
+                
+
+                    }
+
+
+
+                    .img-galeria {
+                        margin-bottom: 5px;
+                        width: 170%;
+                        height: 20%;
+                       margin-left: 20%;
+                       margin-right: -20%;
+                        
+                       
+                    }
+
+                    .close{
+                        width: 10%;
+                        margin-right: -15%;
+                    }
+                    .subtituloseis{
+                        font-size: 380%;
+                    }
+
+                    .portafolio{
+                        height: 101vh;
+                    }
+
+                    .gallery{
+
+                        height: 104vh; 
+                    }
+
+                    
+
+                    iframe{
+                        margin-left: 8%;
+
+                    }
+
+
+                    .social-media-icon {
+                        margin-left: 0;
+                        
+                        display: inline-block;
+                        width: 105px;
+                        height: 35px;
+                        
+                        
+                        
+
+                       
+                    }
+
+                    .social-media {
+                        margin-left:  28%;
+                        width: 40%;
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: -0px;
+                        margin-bottom: 50px;
+                        
+                    }
+
+                    .social-media-icon i {
+                        font-size: 23px;
+                        line-height: 33px;
+                        
+
+                        
+
+                        }
+
+                        .brand {
+    
+                            font-family: 'Poiret One', cursive;
+                            margin-left: 57px;
+                            font-weight: 600;
+                            font-size: 30px;
+                            
+                            
+                            
+                        }
+                        
+                        .telefono{
+                            font-family: 'Poiret One', cursive;
+                            margin-left: 80px;
+                            font-weight: 600;
+                            font-size: 16px;
+                            margin-bottom: 80PX;
+                        
+                        }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
